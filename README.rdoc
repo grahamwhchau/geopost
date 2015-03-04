@@ -1,0 +1,42 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
+
+HTTP requests come in different flavours:
+GET - Get something
+POST - Create something
+PUT/PATCH - Update something
+Delete - Destroy something
+
+CRUD is stands for create, read, update and destroy.
+
+RESTfulness means 
+	GET only ever reads from  a DB.
+	POST only ever creates in a DB.
+	PUT or PATCH only ever updates in a DB record.
+	DELETE only ever destroys.

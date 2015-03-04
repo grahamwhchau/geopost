@@ -1,0 +1,63 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	max-width:720px;
+	margin: 20px auto;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background-color: #facab2;
+	color: #313131;
+
+}
+.posts{
+	padding: 20px;
+	margin: 10px;
+
+}
+
+.post{
+	margin-bottom: 10px;
+	background-color: #fdefe7;
+	padding: 20px;
+}
+
+header a{
+	color: inherit;
+	text-dectoration: none;
+	background-color: #fdefe7;
+	padding: 10px;
+	margin-right: 10px;
+
+}
+form{
+		label{
+			width: 200px;
+			margin-right: 30px;
+			float: left;
+			text-align: right;
+
+		}
+.btn{
+	width: 300px;
+	margin:20px auto;
+}
+	input, textarea, select{
+		width:300px;
+		padding: 10px;
+		border: 3px solid #fdefe7;
+		color:#888;
+		&:focus{
+			outline: none;
+			border: 3px solid #fff;
+		}
+		&[type="submit"]{
+			background-color: #facab2;
+			border: 3px solid #fff;
+			border-color: #fff;
+		}
+
+
+}	
+
+}
